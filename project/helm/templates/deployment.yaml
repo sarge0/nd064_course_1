@@ -26,6 +26,6 @@ spec:
         name: nginx-deployment
         resources:
           requests:
-            cpu: {{ .Values.cpu }}
-            memory: {{ .Values.memory }}
+            cpu: {{ .Values.resources.cpu }}
+            memory: {{ .Values.resources.memory }}
             
